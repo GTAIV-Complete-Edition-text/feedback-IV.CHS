@@ -54,7 +54,9 @@
 
 锁60帧解决大部分问题，锁30帧解决全部问题。
 
-可通过专为 GTA 4 制作的 [Fusion Fix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix) 修复包中的 `FpsLimit` 和 `CutsceneFpsLimit` 选项，对游戏帧数与过场动画帧数单独进行设置。
+在游戏的画面设置里调成60Hz，同时开启垂直同步，就可以锁60帧了。
+
+通过专为 GTA 4 制作的 [Fusion Fix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix) 修复包中的 `FpsLimit` 和 `CutsceneFpsLimit` 选项，还可以对游戏帧数与过场动画帧数单独进行设置。
 
 通过其他软件临时限制帧数亦可，甚至可以拔了笔记本电源，或是在任务管理器里把游戏设置成单核运行。
 
