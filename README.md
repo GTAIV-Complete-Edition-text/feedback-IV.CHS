@@ -39,6 +39,8 @@
 
 - 部分任务无限载入
 
+- 过场动画卡顿/拖影/模糊
+
 - 过场动画中的放大镜头推过头卡死  
   可通过安装 [Fusion Fix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix) 修改 FOV 解决
 
@@ -58,7 +60,8 @@
 
 在游戏的画面设置里调成60Hz，同时开启垂直同步，就可以锁60帧了。
 
-通过专为 GTA 4 制作的 [Fusion Fix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix) 修复包中的 `FpsLimit` 和 `CutsceneFpsLimit` 选项，还可以对游戏帧数与过场动画帧数单独进行设置。
+推荐安装专为 GTA 4 制作的 [Fusion Fix](https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix) 修复包，能够解决大部分过场动画相关的问题。  
+利用其中的 `FpsLimit` 和 `CutsceneFpsLimit` 选项也可以对游戏帧数与过场动画帧数单独进行设置。
 
 通过其他软件临时限制帧数亦可，甚至可以拔了笔记本电源，或是在任务管理器里把游戏设置成单核运行。
 
