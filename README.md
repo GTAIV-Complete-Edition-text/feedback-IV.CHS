@@ -2,6 +2,8 @@
 
 用于收集汉化相关的反馈的仓库，请通过Issue进行反馈。
 
+[【腾讯文档】GTA IV 汉化反馈表](https://docs.qq.com/form/page/DQXdCd1BwT1VrbXV5) 的[收集结果](https://docs.qq.com/sheet/DQWxlYUllTmhpRXRx)会手动同步到这里，大概。
+
 ### 反馈须知
 ***
 
