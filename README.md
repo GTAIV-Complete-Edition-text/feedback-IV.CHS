@@ -58,6 +58,25 @@
 
 通过其他软件临时限制帧数亦可，甚至可以拔了笔记本电源，或是在任务管理器里把游戏设置成单核运行。
 
+**SNT修改器引起的Bug**
+
+- 无法接听电话，按下接听后自动挂断  
+  按 `小键盘减号键` 开关一下**睡眠模式**试试，按下后提示 `Sleep Mode Disabled` 说明关掉了。  
+  提示 `Sleep Mode Enabled` 的话，过几秒再按一次减号键，把睡眠模式**关了**。  
+  如果用SNT的快捷键**关闭**睡眠模式以后还是接不了电话，就只能**删除修改器**后开新档了。  
+  删除根目录下 `Trainer` 开头的几个文件，搞不清楚就进根目录删除所有游戏文件重下。别用Steam的卸载功能，Mod卸不干净的。
+
+- 一上车游戏就崩溃
+  按 `F3` 或 `F4` 呼出SNT菜单，选择 `Options`，移动到右边的倒数第七列，将 `Enable/Disable Ingame Messages` 设为 `Disabled`。
+  其实是因为上车时SNT会在屏幕底部显示当前电台名称，但这个功能在完整版里坏了。使用[修复版SNT](https://www.gtainside.com/en/gta4/trainers/161465-simple-native-trainer-for-steam-v1-2-0-43-fixed/)可以解决除个人电台以外的崩溃。
+
+- 调到个人电台游戏就崩溃  
+  同上，只能禁用SNT的游戏内提示，或者清空个人电台。
+
+SNT修改器和ScriptHook年久失修，虽然能用，但还是会引起很多奇奇怪怪的Bug。
+有能力的话还是推荐使用相对新一点的 [Liberty's Legacy Trainer](https://gtaforums.com/topic/973091-gta-iv-12043-libertys-legacy-trainer/)。
+不过这个修改器没有默认的功能快捷键，只能按 `F11` 呼出菜单以后用方向键和回车选择选项。
+
 **其他原因的Bug**
 
 - 显存识别错误  
